@@ -1,0 +1,40 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "spine":  "terravolt_construct:item/tool/oodachi/spine",
+    "top_blade":  "terravolt_construct:item/tool/oodachi/top_blade",
+    "bottom_blade":  "terravolt_construct:item/tool/oodachi/bottom_blade",
+    "guard":  "terravolt_construct:item/tool/oodachi/guard",
+    "handle":  "terravolt_construct:item/tool/oodachi/handle",
+    
+    "large_spine":  "terravolt_construct:item/tool/oodachi/large/spine",
+    "large_top_blade":  "terravolt_construct:item/tool/oodachi/large/top_blade",
+    "large_bottom_blade":  "terravolt_construct:item/tool/oodachi/large/bottom_blade",
+    "large_guard":  "terravolt_construct:item/tool/oodachi/large/guard",
+    "large_handle":  "terravolt_construct:item/tool/oodachi/large/handle"
+  },
+  "modifier_roots": {
+	  "small": [ "terravolt_construct:item/tool/oodachi/modifiers/" ],
+	  "large": [ "terravolt_construct:item/tool/oodachi/large/modifiers/" ]
+  },
+  "large": true,
+  "large_offset": [2, 3],
+  "parts": [
+    { "name": "top_blade",   "index": 0 },
+    { "name": "bottom_blade", "index": 1 },
+    { "name": "guard",  "index": 2 },
+    { "name": "handle", "index": 3 },
+    { "name": "spine", "index": 4 }
+  ],
+  "overrides": [
+	{
+	  "predicate": { "tconstruct:charging": 2 },
+      "model": "terravolt_construct:item/tool/oodachi/blocking"
+	},
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "terravolt_construct:item/tool/oodachi/broken"
+    }
+  ]
+}

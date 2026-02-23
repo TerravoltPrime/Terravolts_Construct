@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+"terravolt_construct:ninja_helmet",
+ "terravolt_construct:ninja_leggings",
+    "terravolt_construct:ninja_boots",
+    "terravolt_construct:ninja_chestplate",
+    "terravolt_construct:gladius",
+    "terravolt_construct:wakizashi",
+"terravolt_construct:oodachi",
+    "terravolt_construct:round_shield",
+    "terravolt_construct:tanto"
+  ]
+}

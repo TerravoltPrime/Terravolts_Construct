@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:tool",
+  "break_blocks_in_creative": false,
+  "max_stack_size": 1,
+  "group": "terravolt_construct:terravolt_construct",
+  "color_handler": "tconstruct:tool"
+}

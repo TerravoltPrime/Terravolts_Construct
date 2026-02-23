@@ -1,0 +1,36 @@
+{
+    "loader": "tconstruct:tool",
+    "parent": "forge:item/default-tool",
+    "textures": {
+        "parent": "tconstruct:item/base/shield",
+        "core": "terravolt_construct:item/tool/round_shield/core_broken"
+    },
+    "modifier_roots": [
+        "terravolt_construct:item/tool/round_shield/modifiers/broken/",
+        "terravolt_construct:item/tool/round_shield/modifiers/"
+    ],
+    "overrides": [
+        {
+            "predicate": {
+                "terravolt_construct:charging": 2
+            },
+            "model": "terravolt_construct:item/tool/round_shield/shield_blocking"
+        },
+        {
+            "predicate": {
+                "terravolt_construct:broken": 1
+            },
+            "model": "terravolt_construct:item/tool/round_shield/shield_broken"
+        }
+    ],
+    "parts": [
+        {
+            "name": "core",
+            "index": 0
+        },
+        {
+            "name": "plate",
+            "index": 1
+        }
+    ]
+}

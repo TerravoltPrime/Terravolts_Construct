@@ -1,0 +1,32 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "tconstruct:item/base/bow",
+  "textures": {
+    "limb_bottom": "terravolt_construct:item/tool/rouge_bow/limb",
+    "limb_top":    "terravolt_construct:item/tool/rouge_bow/grip",
+    "bowstring":   "terravolt_construct:item/tool/rouge_bow/string"
+  },
+  "parts": [
+    { "name": "limb_bottom", "index": 0 },
+    { "name": "limb_top",    "index": 1 },
+    { "name": "bowstring",   "index": 2 }
+  ],
+  "overrides": [
+    {
+      "predicate": { "tconstruct:charging": 1 },
+      "model": "terravolt_construct:item/shortbow/pulling_1"
+    },
+    {
+      "predicate": { "tconstruct:charging": 1, "tconstruct:charge": 0.65 },
+      "model": "terravolt_construct:item/rouge_bow/pulling_2"
+    },
+    {
+      "predicate": { "tconstruct:charging": 1, "tconstruct:charge": 1.0 },
+      "model": "terravolt_construct:item/rouge_bow/pulling_3"
+    },
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "terravolt_construct:item/rouge_bow/broken"
+    }
+  ]
+}

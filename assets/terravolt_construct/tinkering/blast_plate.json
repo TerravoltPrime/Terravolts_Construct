@@ -1,0 +1,50 @@
+{
+    "color": "FF5B2F66",
+    "fallbacks": [
+        "wood",
+        "stick",
+        "primitive"
+    ],
+    "generator": {
+        "ignoreMaterialStats": false,
+        "supportedStats": [
+            "tconstruct:repair_kit",
+            "tconstruct:armor_plating",
+            "tconstruct:plating_boots",
+            "tconstruct:plating_leggings",
+            "tconstruct:plating_chestplate",
+            "tconstruct:plating_helmet"
+        ],
+        "transformer": {
+            "type": "tconstruct:grey_to_sprite",
+            "palette": [
+                {
+                    "color": "FF000000",
+                    "grey": 0
+                },
+                {
+                    "color": "FF898989",
+                    "grey": 63
+                },
+                {
+                    "path": "minecraft:block/gold_block",
+                    "grey": 102
+                },
+                {
+                    "grey": 140,
+		    "path": "minecraft:block/gold_block"
+                },
+                {
+                    "grey": 216,
+                    "color": "FF81985c"
+		    
+                },
+                {
+                    "color": "FF81985c",
+                    "grey": 255
+                }
+            ]
+        }
+    },
+    "luminosity": 0
+}

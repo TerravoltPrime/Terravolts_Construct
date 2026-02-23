@@ -1,0 +1,23 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "tconstruct:item/base/shield",
+    "textures": {
+        "plate": "terravolt_construct:item/tool/round_shield/plate",
+        "core": "terravolt_construct:item/tool/round_shield/core"
+    },
+  "modifier_roots": [ "terravolt_construct:item/tool/round_shield/modifiers/"],
+ "parts": [
+    { "name": "core", "index": 1 },
+    { "name": "plate",   "index": 0 }
+  ],
+  "overrides": [
+    {
+      "predicate": { "tconstruct:charging": 2 },
+      "model": "terravolt_construct:item/tool/round_shield/shield_blocking"
+    },
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "terravolt_construct:item/tool/round_shield/shield_broken"
+    }
+  ]
+}

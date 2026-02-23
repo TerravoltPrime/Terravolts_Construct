@@ -1,0 +1,25 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "head":   "terravolt_construct:item/tool/wakizashi/blade",
+    "handle": "terravolt_construct:item/tool/wakizashi/handle",
+    "guard":  "terravolt_construct:item/tool/wakizashi/hilt"
+  },
+  "modifier_roots": [ "terravolt_construct:item/tool/wakizashi/modifiers/" ],
+  "parts": [
+    { "name": "handle", "index": 1 },
+    { "name": "head",   "index": 0 },
+    { "name": "guard",  "index": 2 }
+  ],
+  "overrides": [
+    {
+      "predicate": { "tconstruct:charging": 2 },
+      "model": "terravolt_construct:item/tool/wakizashi/blocking"
+    },
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "terravolt_construct:item/tool/wakizashi/broken"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "tconstruct:item/base/bow",
+  "textures": {
+    "limb_bottom": "terravolt_construct:item/tool/shortbow/limb",
+    "limb_top":    "terravolt_construct:item/tool/shortbow/grip",
+    "bowstring":   "terravolt_construct:item/tool/shortbow/bowstring_broken"
+  },
+  "parts": [
+    { "name": "limb", "index": 0 },
+    { "name": "grip",    "index": 1 },
+    { "name": "bowstring",   "index": 2 }
+  ]
+}

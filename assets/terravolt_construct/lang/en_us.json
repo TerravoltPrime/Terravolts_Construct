@@ -1,0 +1,30 @@
+{
+  "material.terravolt_construct.barrel_cactus": "Barrel Cactus",
+  "material.terravolt_construct.necromium": "Necromium",
+  "material.terravolt_construct.blast_plate": "Blast-Proof",
+  "material.terravolt_construct.sanguine": "Sanguine",
+  "material.terravolt_construct.snail_shell": "Snail",
+  "fluid_type.terravolt_construct.necromium": "Necromium",
+  "fluid_type.terravolt_construct.sanguine": "Molten Sanguine Metal",
+  "fluid_type.terravolt_construct.blast_plate": "Molten Blast-Proof Metal",
+  "modifier.terravolt_construct.weakness": "Weakness",
+  "modifier.terravolt_construct.mollusk": "Mollusk",
+  "modifier.terravolt_construct.mollusk.resistance": "Mollusk",
+  "modifier.terravolt_construct.worsening": "Worsening",
+  "modifier.terravolt_construct.slowness": "Slowness",
+  "item.terravolt_construct.sanguine_bucket": "Molten Sanguine Bucket",
+  "item.terravolt_construct.blast_plate_bucket": "Molten Blast-Proof Metal Bucket",
+
+  "itemGroup.terravolt_construct.terravolt_construct": "Ancient Armaments",
+  "item.terravolt_construct.gladius": "Gladius",
+  "item.terravolt_construct.tanto": "Tantō",
+  "item.terravolt_construct.oodachi": "Ōdachi",
+  "item.terravolt_construct.wakizashi": "wakizashi",
+  "item.terravolt_construct.round_shield": "Round Shield",
+  "item.ballistech.ballista": "Ballista",
+  "item.terravolt_construct.gladius.description": "A somewhat heavy but well-balanced blade, slow to swing but worth while wielding.",
+  "item.terravolt_construct.tanto.description": "Small curved blades that will cut down the toughest foes.",
+  "item.terravolt_construct.wakizashi.description": "A medium katana that swiftly strikes down foes with elegant grace."
+
+
+}

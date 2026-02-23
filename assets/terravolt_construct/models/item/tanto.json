@@ -1,0 +1,25 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "head":   "terravolt_construct:item/tool/tanto/blade",
+    "handle": "terravolt_construct:item/tool/tanto/handle",
+    "guard":  "terravolt_construct:item/tool/tanto/hilt"
+  },
+  "modifier_roots": [ "terravolt_construct:item/tool/tanto/modifiers/" ],
+  "parts": [
+    { "name": "handle", "index": 1 },
+    { "name": "head",   "index": 0 },
+    { "name": "guard",  "index": 2 }
+  ],
+  "overrides": [
+    {
+      "predicate": { "tconstruct:charging": 2 },
+      "model": "terravolt_construct:item/tool/tanto/blocking"
+    },
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "terravolt_construct:item/tool/tanto/broken"
+    }
+  ]
+}

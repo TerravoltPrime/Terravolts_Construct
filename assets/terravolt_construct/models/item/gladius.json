@@ -1,0 +1,37 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "head":   "terravolt_construct:item/tool/gladius/head",
+    "handle": "terravolt_construct:item/tool/gladius/handle",
+    "guard":  "terravolt_construct:item/tool/gladius/guard",
+    "edge": "terravolt_construct:item/tool/gladius/edge",
+
+    "large_head":   "terravolt_construct:item/tool/gladius/large/head",
+    "large_handle": "terravolt_construct:item/tool/gladius/large/handle",
+    "large_guard":  "terravolt_construct:item/tool/gladius/large/guard",
+    "large_edge": "terravolt_construct:item/tool/gladius/large/edge"
+  },
+  "modifier_roots": {
+    "small": [ "terravolt_construct:item/tool/gladius/modifiers/" ],
+    "large": [ "terravolt_construct:item/tool/gladius/large/modifiers/" ]
+  },
+  "large": true,
+  "large_offset": [-2, 2],
+  "parts": [
+    { "name": "handle", "index": 1 },
+    { "name": "head",   "index": 0 },
+    { "name": "edge", "index": 3 },
+    { "name": "guard",  "index": 2 }
+  ],
+  "overrides": [
+    {
+      "predicate": { "terravolt_construct:charging": 2 },
+      "model": "terravolt_construct:item/tool/gladius/blocking"
+    },
+    {
+      "predicate": { "terravolt_construct:broken": 1 },
+      "model": "terravolt_construct:item/tool/gladius/broken"
+    }
+  ]
+}

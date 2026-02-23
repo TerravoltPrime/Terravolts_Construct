@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:crafting_shaped_material",
+  "category": "equipment",
+  
+  "key": {
+    "l": {
+      "type": "tconstruct:material_value",
+      "material": {
+        "type": "tconstruct:stat_type",
+        "stat_type": "tconstruct:tool_handle"
+      },
+    "w": {
+      "type": "tconstruct:material_value",
+      "material": {
+        "type": "tconstruct:stat_type",
+        "stat_type": "tconstruct:shield_core"
+      },
+      "value": 1.0
+    }
+  },
+  "pattern": [
+    "wl"
+  ],
+  "result": {
+    "item": "terravolt_construct:round_shield"
+  },
+  "show_notification": true
+}}

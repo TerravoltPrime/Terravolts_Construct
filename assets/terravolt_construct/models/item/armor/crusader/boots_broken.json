@@ -1,0 +1,28 @@
+{
+    "loader": "tconstruct:tool",
+    "parent": "forge:item/default",
+    "textures": {
+        "plating": "terravolt_construct:item/tool/armor/crusader/plating_leggings",
+        "cloth": "terravolt_construct:item/tool/armor/crusader/cloth_leggings"
+    },
+    "modifier_roots": [
+        "terravolt_construct:item/tool/armor/crusader/boots/modifiers/"
+    ],
+    "first_modifiers": [
+        "terravolt_construct:trim"
+    ],
+    "parts": [
+        {
+            "name": "plating",
+            "index": 1
+        },
+        {
+            "name": "low_plating",
+            "index": 2
+        },
+        {
+            "name": "maille",
+            "index": 3
+        }
+    ]
+}

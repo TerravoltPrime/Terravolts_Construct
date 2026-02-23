@@ -1,0 +1,117 @@
+{
+    "replace": false,
+    "parts": [
+	{
+            "path": "terravolt_construct:item/tool/gladius/large/head",
+            "stat_type": "tconstruct:head"
+        },
+		{
+            "path": "terravolt_construct:item/tool/gladius/large/handle",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "terravolt_construct:item/tool/gladius/large/guard",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "terravolt_construct:item/tool/gladius/guard",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/gladius/large/edge",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "terravolt_construct:item/tool/gladius/edge",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/gladius/handle",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/gladius/head",
+            "stat_type": "tconstruct:head"
+        },
+    {
+      "path": "terravolt_construct:item/tool/round_shield/plate",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "terravolt_construct:item/tool/round_shield/core",
+      "stat_type": "tconstruct:head"
+    },
+  {
+            "path": "terravolt_construct:item/tool/wakizashi/blade",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/wakizashi/hilt",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/wakizashi/handle",
+            "stat_type": "tconstruct:head"
+        },
+{
+            "path": "terravolt_construct:item/tool/tanto/blade",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/tanto/hilt",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/tanto/handle",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/oodachi/top_blade",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/oodachi/broken_top_blade",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/oodachi/spine",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/oodachi/bottom_blade",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/oodachi/handle",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/oodachi/guard",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/oodachi/large/top_blade",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/oodachi/large/broken_top_blade",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/oodachi/large/spine",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/oodachi/large/bottom_blade",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/oodachi/large/handle",
+            "stat_type": "tconstruct:head"
+        },
+	{
+            "path": "terravolt_construct:item/tool/oodachi/large/guard",
+            "stat_type": "tconstruct:head"
+        }
+    ]
+}

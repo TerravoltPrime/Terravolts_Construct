@@ -1,0 +1,10 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "autumnity"
+    },
+    "craftable": true,
+    "hidden": false,
+    "sortOrder": 3,
+    "tier": 1
+}

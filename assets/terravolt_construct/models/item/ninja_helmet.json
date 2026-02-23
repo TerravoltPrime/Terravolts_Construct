@@ -1,0 +1,21 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "plating_armor": "terravolt_construct:item/tool/armor/ninja/helmet/ninja_1",
+    "cloth_armor": "terravolt_construct:item/tool/armor/ninja/helmet/ninja_2"
+  },
+  "parts": [
+    { "name": "plating_armor", "index": 0 },
+    { "name": "cloth_armor", "index": 1 }
+  ],
+  "modifier_roots": [ "terravolt_construct:item/tool/armor/ninja/helmet/modifiers/broken/" ],
+  "first_modifiers": [ "tconstruct:dyed", "tconstruct:trim" ],
+
+  "overrides": [
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "terravolt_construct:item/ninja/helmet_broken"
+    }
+  ]
+}

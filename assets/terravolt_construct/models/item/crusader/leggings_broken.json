@@ -1,0 +1,26 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "plating": "abcon:item/tool/armor/crusader/leggings/plating_broken",
+    "low_plating": "abcon:item/tool/armor/crusader/leggings/low_plating_broken",
+    "cloth": "abcon:item/tool/armor/crusader/leggings/cloth_broken"
+  },
+  "modifier_roots": [
+    "abcon:item/tool/armor/crusader/leggings/modifiers/broken/",
+    "abcon:item/tool/armor/crusader/leggings/modifiers/"
+  ],
+  "first_modifiers": [
+    "tconstruct:trim"
+  ],
+  "parts": [
+    {
+      "name": "plating",
+      "index": 0
+    },
+    {
+      "name": "cloth",
+      "index": 1
+    }
+  ]
+}

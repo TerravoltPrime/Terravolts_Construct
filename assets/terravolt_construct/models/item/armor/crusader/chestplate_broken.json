@@ -1,0 +1,36 @@
+{
+    "loader": "tconstruct:tool",
+    "parent": "forge:item/default",
+    "textures": {
+        "plating": "terravolt_construct:item/tool/armor/crusader/plating_armor",
+        "low_plating": "terravolt_construct:item/tool/armor/crusader/low_plating_armor",
+        "maille": "terravolt_construct:item/tool/armor/crusader/maille",
+        "cloth": "terravolt_construct:item/tool/armor/crusader/cloth"
+
+
+    },
+    "modifier_roots": [
+        "terravolt_construct:item/tool/armor/crusader/chestplate/modifiers/"
+    ],
+    "first_modifiers": [
+        "terravolt_construct:trim"
+    ],
+    "parts": [
+        {
+            "name": "plating",
+            "index": 1
+        },
+        {
+            "name": "low_plating",
+            "index": 2
+        },
+        {
+            "name": "maille",
+            "index": 3
+        },
+        {
+            "name": "cloth",
+            "index": 4
+        }
+    ]
+}

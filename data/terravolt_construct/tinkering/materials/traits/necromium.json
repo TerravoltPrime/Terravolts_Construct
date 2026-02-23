@@ -1,0 +1,8 @@
+{
+  "default": [
+    { "name": "terravolt_construct:slowness", "level": 1 }
+  ],
+  "perStat": {
+    "tconstruct:armor": [{ "name": "terravolt_construct:weakness", "level": 1 }]
+  }
+}

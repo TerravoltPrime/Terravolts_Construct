@@ -1,0 +1,29 @@
+modLoader="lowcodefml"
+loaderVersion="[43,)"
+issueTrackerURL="https://github.com/SlimeKnights/TinkersThings/issues"
+license="MIT"
+[[mods]]
+    modId="terravolt_construct"
+    version="1.7.0"
+    displayName="Terravolt's Construct"
+    description='''
+    Thing Pack For Tinkers' Construct.
+    '''
+[[dependencies.tinkers_things]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43.3.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.tinkers_things]]
+    modId="tconstruct"
+    mandatory=true
+    versionRange="[3.9,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.tinkers_things]]
+    modId="jsonthings"
+    mandatory=true
+    versionRange="[0.9.4,)"
+    ordering="NONE"
+    side="BOTH"

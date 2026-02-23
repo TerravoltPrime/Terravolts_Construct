@@ -1,0 +1,10 @@
+{
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "savage_and_ravage"
+  },
+  "craftable": false,
+  "hidden": false,
+  "sortOrder": 3,
+  "tier": 3
+}

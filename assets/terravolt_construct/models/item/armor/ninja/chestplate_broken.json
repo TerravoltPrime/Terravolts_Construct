@@ -1,0 +1,24 @@
+{
+    "loader": "tconstruct:tool",
+    "parent": "forge:item/default",
+    "textures": {
+        "plating": "terravolt_construct:item/tool/armor/ninja/plating_armor",
+        "cloth": "terravolt_construct:item/tool/armor/ninja/cloth_armor"
+    },
+    "modifier_roots": [
+        "terravolt_construct:item/tool/armor/ninja/chestplate/modifiers/"
+    ],
+    "first_modifiers": [
+        "terravolt_construct:trim"
+    ],
+    "parts": [
+        {
+            "name": "plating",
+            "index": 0
+        },
+        {
+            "name": "cloth",
+            "index": 1
+        }
+    ]
+}

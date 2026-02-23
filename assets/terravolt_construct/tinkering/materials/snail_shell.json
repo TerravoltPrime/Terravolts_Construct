@@ -1,0 +1,51 @@
+
+{
+  "color": "FF703e21",
+  "fallbacks": [
+    "metal"
+  ],
+  "generator": {
+    "ignoreMaterialStats": false,
+    "supportedStats": [
+
+      "tconstruct:armor_maille"
+    ],
+    "transformer": {
+      "type": "tconstruct:recolor_sprite",
+      "color_mapping": {
+        "type": "tconstruct:grey_to_color",
+        "palette": [
+          {
+            "color": "FF000000",
+            "grey": 0
+          },
+          {
+            "color": "FF5b321d",
+            "grey": 63
+          },
+          {
+            "color": "FF703e21",
+            "grey": 102
+          },
+          {
+            "color": "FF965c33",
+            "grey": 140
+          },
+          {
+            "color": "FFb26b3c",
+            "grey": 178
+          },
+          {
+            "color": "FF965c33",
+            "grey": 216
+          },
+          {
+            "color": "FFb26b3c",
+            "grey": 255
+          }
+        ]
+      }
+    }
+  },
+  "luminosity": 0
+}
