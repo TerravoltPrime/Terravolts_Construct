@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "caverns_and_chasms:living_flesh" },
+  "result": {
+    "fluid": "terravolt_construct:sanguine",
+    "amount": 90
+  },
+  "temperature": 1000,
+  "time": 125
+}

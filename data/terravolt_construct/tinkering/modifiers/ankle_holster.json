@@ -1,0 +1,29 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:inventory",
+      "pattern": "tconstruct:dagger",
+      "slots": {
+        "each_level": 1
+      }
+    },
+    {
+      "type": "tconstruct:tool_belt",
+      "on_key": [
+        "normal",
+        "control"
+      ]
+    },
+    {
+      "type": "tconstruct:inventory_menu",
+      "on_key": "shift"
+    },
+    {
+      "type": "tconstruct:volatile_flag",
+      "flag": "tconstruct:inventory_show_offhand"
+    }
+  ],
+  "priority": 120,
+  "tooltip_display": "always"
+}

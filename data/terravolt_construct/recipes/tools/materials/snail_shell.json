@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "autumnity:snail_shell_piece"
+  },
+  "needed": 1,
+  "value": 1,
+  "material": "terravolt_construct:snail_shell"
+}

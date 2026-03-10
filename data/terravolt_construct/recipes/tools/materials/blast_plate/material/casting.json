@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "fluid": "terravolt_construct:molten_blast_plate",
+    "amount": 200
+  },
+  "temperature": 1250,
+  "output": "terravolt_construct:blast_plate"
+}

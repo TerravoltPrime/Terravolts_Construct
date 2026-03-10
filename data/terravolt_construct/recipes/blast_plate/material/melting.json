@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "savage_and_ravage:blast_proof_plating" },
+  "result": {
+    "fluid": "terravolt_construct:blast_plate",
+    "amount": 90
+  },
+  "temperature": 1000,
+  "time": 125
+}

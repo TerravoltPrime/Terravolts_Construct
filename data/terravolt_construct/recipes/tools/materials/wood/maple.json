@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "autumnity:maple"
+  },
+  "leftover": "autumnity:maple_planks",
+  "material": "tconstruct:wood#maple",
+  "needed": 1,
+  "value": 4
+}

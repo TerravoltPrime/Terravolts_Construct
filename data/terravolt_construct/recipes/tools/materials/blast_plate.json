@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "savage_and_ravage:blast_proof_plating"
+  },
+  "needed": 1,
+  "value": 1,
+  "material": "terravolt_construct:blast_plate"
+}

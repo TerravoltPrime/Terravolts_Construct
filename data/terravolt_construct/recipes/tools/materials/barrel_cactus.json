@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "atmospheric:barrel_cactus"
+  },
+  "needed": 4,
+  "value": 4,
+  "material": "terravolt_construct:barrel_cactus"
+}

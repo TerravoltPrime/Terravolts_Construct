@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "caverns_and_chasms:necromium_ingot" },
+  "result": {
+    "fluid": "terravolt_construct:necromium",
+    "amount": 90
+  },
+  "temperature": 1000,
+  "time": 125
+}

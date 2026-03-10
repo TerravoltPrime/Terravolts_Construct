@@ -1,0 +1,29 @@
+{
+  "layers": [
+    {
+      "type": "tconstruct:fixed",
+      "prefix": "terravolt_construct:crusader/cloth_base_"
+    },
+    {
+      "type": "tconstruct:first_present",
+      "options": [
+        {
+          "type": "tconstruct:dyed",
+          "modifier": "tconstruct:dyed",
+          "prefix": "terravolt_construct:crusader/cloth_"
+        },
+        {
+          "type": "tconstruct:material",
+          "index": 1,
+          "prefix": "terravolt_construct:crusader/cloth_"
+        }
+      ]
+    },
+    {
+      "type": "tconstruct:material",
+      "index": 0,
+      "prefix": "terravolt_construct:crusader/plating_"
+    },
+    "tconstruct:trim"
+  ]
+}
